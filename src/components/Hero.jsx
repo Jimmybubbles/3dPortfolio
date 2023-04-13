@@ -16,8 +16,9 @@ const Section = styled.div`
 
 const Container = styled.div`
   height: 100%;
+  width: auto;
   scroll-snap-align: center;
-  width: 1400px;
+  width: 1250px;
   display: flex;
   justify-content: space-between;
   @media only screen and (max-width: 768px) {
@@ -31,6 +32,7 @@ const Container = styled.div`
 const Left = styled.div`
   flex: 2;
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
@@ -41,7 +43,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 74px;
+  font-size: 64px;
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -54,7 +56,7 @@ const WhatWeDo = styled.div`
 `;
 
 const Line = styled.img`
-  height: 5px;
+  height: 4px;
 `;
 
 const Subtitle = styled.h2`
@@ -91,8 +93,8 @@ const Right = styled.div`
 `;
 
 const Img = styled.img`
-  width: 800px;
-  height: 600px;
+  width: 700px;
+  height: 500px;
   object-fit: contain;
   position: absolute;
   top: 0;
