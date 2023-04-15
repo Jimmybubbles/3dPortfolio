@@ -35,12 +35,12 @@ const Map = () => {
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "#FF5533",
+          stroke: "white",
           strokeWidth: 3,
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#F53">
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#ffffff">
           {"Paris"}
         </text>
       </Annotation>
